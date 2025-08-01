@@ -1,8 +1,21 @@
 #include <stdio.h>
 
 int main(){
-    
+   char estado = 'Brasilia';
+   char codigo[3] = 'A01';
+   char cidade[2] = 'DF';
+   int população = 2.8170000;
+   float tamamho = 5.800;
+   int turismo = 15;
 
+   printf("Digite seu estado: ");
+   scanf("%c", &estado);
+   printf("O estado é: %c\n", estado);
+
+   print("Digite seu codigo:  ");
+   scanf("%c", &codigo);
+   printf("O codigo é: %c\n",codigo);
+   
 
 
 
