@@ -52,6 +52,56 @@ int main(){
    float tamanho8 = 14.100;
    float pib8 = 400.000;
    int turismo8 = 2;
+   char estado3[50] = "Minas";
+   char codigo9[5] = "C01";
+   char cidade9[50] = "BeloHorizonte";
+   int população9 = 274000;
+   float tamanho9 = 880.000;
+   float pib9 = 1200.00000;
+   int turismo9 = 2;
+   char cidade10 [50] = "Unai";
+   char codigo10 [5] = "C02";
+   int população10 = 110000;
+   float tamanho10 = 20.173;
+   float pib10 = 250.000;
+   int turismo10 = 1;
+   char cidade11 [50] = "Uberlandia";
+   char codigo11 [5] = "C03";
+   int população11 = 270.000;
+   float tamanho11 =  172.8539;
+   float pib11 = 1000.000;
+   int turismo11= 3;
+   char cidade12[50] = "Brumadinho";
+   char codigo12 [5] = "C04";
+   int população12 = 265.000;
+   float tamanho12 = 23.0242;
+   float pib12 = 400.000;
+   int turismo12 = 2;
+   char estado3[50] = "SãoPaulo";
+   char codigo13 [5] = "D01";
+   char cidade13 [50] = "SãoPaulo";
+   int população13 = 11000000;
+   float tamanho13 = 12000000;
+   float pib13 = 1200.00000;
+   int turismo13 = 5;
+   char cidade14 [50] = "Guarulhos";
+   char codigo14 [5] = "D02";
+   int população14 = 2000000;
+   float tamanho14 = 12546000;
+   float pib14 = 1500000;
+   int turismo14 = 3;
+   char cidade15 [50] = "Campinas";
+   char codigo15[5] = "D03";
+   int população15 = 1139000;
+   float tamanho15 = 1382.8539;
+   float pib15 = 1800.000;
+   int turismo15 = 3;
+   char cidade12[50] = "Osasco";
+   char codigo12 [5] = "D04";
+   int população12 = 728.000;
+   float tamanho12 = 528.000;
+   float pib12 = 440.000;
+   int turismo12 = 1;
    
    printf("Digite seu estado: ");
    scanf("%s", estado);
@@ -83,7 +133,7 @@ int main(){
 
     printf("Digite a cidade: ");
     scanf("%s", &cidade2);
-    printf("A cidade2 é: %s\n", cidade2);
+    printf("A cidade é: %s\n", cidade2);
 
     printf("Digite o codigo: ");
     scanf("%3s", &codigo2);
@@ -107,7 +157,7 @@ int main(){
     
     printf("Digite a ciadade: ");
     scanf("%s", &cidade3);
-    printf("A cidade2 é: %s\n", cidade3);
+    printf("A cidade é: %s\n", cidade3);
 
     printf("Digite o codigo: ");
     scanf("%3s", &codigo3);
@@ -131,7 +181,7 @@ int main(){
 
     printf("Digite a ciadade: ");
     scanf("%s", &cidade4);
-    printf("A cidade2 é: %s\n", cidade4);
+    printf("A cidade é: %s\n", cidade4);
 
     printf("Digite o codigo: ");
     scanf("%3s", &codigo4);
@@ -183,7 +233,7 @@ int main(){
     
     printf("Digite a cidade: ");
     scanf("%s", &cidade6);
-    printf("A cidade2 é: %s\n", cidade6);
+    printf("A cidade é: %s\n", cidade6);
 
     printf("Digite o codigo: ");
     scanf("%3s", &codigo6);
@@ -252,6 +302,108 @@ int main(){
     printf("Digite o turismo: ");
     scanf("%d", &turismo8);
     printf("O turismo é: %d\n", turismo8);
+
+    printf("Digite seu estado: ");
+   scanf("%s", estado3);
+   printf("O estado é: %s\n", estado3);
+
+   printf("Digite seu codigo:  ");
+   scanf("%3s", codigo9);
+   printf("O codigo é: %s\n",codigo9);
+
+   printf("Digite a cidade: ");
+    scanf("%s", cidade9);
+    printf("A cidade é: %s\n", cidade9);
+
+    printf("Digite a população: ");
+    scanf("%d", &população9);
+    printf("A população é: %d\n", população9);
+
+    printf("Digite o km²: ");
+    scanf("%f", &tamanho9);
+    printf("O km² é: %2f\n", tamanho9);
+
+    printf("Digite o pib:  ");
+    scanf("%f", &pib9) ;
+    printf("O PIB é: %f\n", pib9);
+
+    printf("Digite o turismo: ");
+    scanf("%d", &turismo9);
+    printf("O turismo é: %d\n", turismo9);
+    
+    printf("Digite a cidade: ");
+    scanf("%s", &cidade10);
+    printf("A cidade é: %s\n", cidade10);
+
+    printf("Digite o codigo: ");
+    scanf("%3s", &codigo10);
+    printf("O codigo é: %s\n", codigo10);
+
+    printf("Digite a população: ");
+    scanf("%d", &população10);
+    printf("A população é: %d\n", população10);
+
+    printf("Digite o km²: ");
+    scanf("%f", &tamanho10);
+    printf("O km² é: %f\n", tamanho10);
+
+    printf("Digite o pib:  ");
+    scanf("%f", &pib10);
+    printf("O PIB é: %f\n", pib10);
+
+    printf("Digite o turismo: ");
+    scanf("%d", &turismo10);
+    printf("O turismo é: %d\n", turismo10);
+
+    printf("Digite a cidade: ");
+    scanf("%s", &cidade11);
+    printf("A cidade é: %s\n", cidade11);
+
+    printf("Digite o codigo: ");
+    scanf("%3s", &codigo11);
+    printf("O codigo é: %s\n", codigo11);
+
+    printf("Digite a população: ");
+    scanf("%d", &população11);
+    printf("A população é: %d\n", população11);
+
+    printf("Digite o km²: ");
+    scanf("%f", &tamanho11);
+    printf("O km² é: %f\n", tamanho11);
+
+    printf("Digite o pib:  ");
+    scanf("%f", &pib11);
+    printf("O PIB é: %f\n", pib11);
+
+    printf("Digite o turismo: ");
+    scanf("%d", &turismo11);
+    printf("O turismo é: %d\n", turismo11);
+
+    printf("Digite a cidade: ");
+    scanf("%s", &cidade12);
+    printf("A cidade2 é: %s\n", cidade12);
+
+    printf("Digite o codigo: ");
+    scanf("%3s", &codigo12);
+    printf("O codigo é: %s\n", codigo12);
+
+    printf("Digite a população: ");
+    scanf("%d", &população12);
+    printf("A população é: %d\n", população12);
+
+    printf("Digite o km²: ");
+    scanf("%f", &tamanho12);
+    printf("O km² é: %f\n", tamanho12);
+
+    printf("Digite o pib:  ");
+    scanf("%f", &pib12);
+    printf("O PIB é: %f\n", pib12);
+
+    printf("Digite o turismo: ");
+    scanf("%d", &turismo12);
+    printf("O turismo é: %d\n", turismo12);
+
+    
 
 
 
